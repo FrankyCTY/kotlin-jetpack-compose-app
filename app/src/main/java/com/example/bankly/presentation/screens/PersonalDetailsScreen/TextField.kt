@@ -46,6 +46,7 @@ fun TextField(containerModifier: Modifier = Modifier, label: String, value: Stri
             singleLine = true,
             onValueChange = {
                 value -> onValueChange(value)
-            })
+            },
+        )
     }
 }
